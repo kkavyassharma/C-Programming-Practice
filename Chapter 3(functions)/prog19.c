@@ -1,0 +1,19 @@
+//WAP to calculate GCD using recursion.
+#include<stdio.h>
+int GCD(int, int);
+int main(){
+int num1, num2, res;
+printf("\n Enter the two numbers:");
+scanf("%d%d", &num1, &num2);
+res = GCD(num1, num2);
+printf("GCD of %d and %d is %d", num1, num2, res);
+return 0;
+}
+int GCD(int x, int y){
+    int rem;
+    rem = x%y;
+    if(rem==0)
+    return y;
+    else
+    return (GCD(y, rem));
+}

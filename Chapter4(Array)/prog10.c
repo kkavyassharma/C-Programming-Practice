@@ -1,0 +1,1 @@
+//WAP to read marks of 10 students in the range of 0-100. Then make 10 groups: 0-10, 10-20, etc. Count the number of values that falls in each group and display the result.
